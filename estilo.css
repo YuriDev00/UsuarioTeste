@@ -1,0 +1,50 @@
+.body{
+        margin: 0;
+        padding: 0;
+        background-color: rgba(250, 137, 9, 0.925);
+}
+
+.titulo{
+    color: rgb(255, 255, 255)6, 7, 7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 900px;
+    margin-right: 0;
+
+    
+}
+  
+
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    
+}
+    .container-fluid {
+        width: 300%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right:0;
+        margin-left: 0;
+        display: flex;
+       
+     }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -10px;
+      
+    }
+
+    .user-panel {
+        flex: 1 0 300px; /* Define a largura mínima e máxima do painel do usuário */
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid rgb(2, 2, 2);
+        border-radius: 8px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+
